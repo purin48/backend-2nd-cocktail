@@ -1,0 +1,15 @@
+package com.example.demo.repository;
+
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.example.demo.model.Cocktail;
+
+@Repository
+public interface CocktailRepository extends CrudRepository<Cocktail, Integer>{
+	
+	// 전체 칵테일 조회
+	List<Cocktail> findAll();
+}

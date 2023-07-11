@@ -1,0 +1,20 @@
+package com.example.demo.service;
+
+import java.util.List;
+
+import com.example.demo.model.CocktailType;
+
+public class CocktailTypeServiceImp implements CocktailTypeService{
+
+	private CocktailTypeService cocktailTypeService;
+	
+	public CocktailTypeServiceImp(CocktailTypeService cocktailTypeService) {
+		this.cocktailTypeService = cocktailTypeService;
+	}
+
+	@Override
+	public List<CocktailType> findAll() {
+		return cocktailTypeService.findAll();
+	}
+
+}
