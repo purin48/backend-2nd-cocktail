@@ -42,19 +42,24 @@ Development tools<br>
 <br><br>
 
 -----
-<br>
+
 <h3>테이블 ERD</h3>
-<br>
-<br>
+<img src="https://github.com/purin48/backend-2nd-cocktail/assets/126961013/1cd3ddcf-6116-444b-b29e-35ab1b46e3b7" width=500px>
+<br><br>
 <h3>API 명세서</h3>
-<br>
+<img src="https://github.com/purin48/backend-2nd-cocktail/assets/126961013/c7c1a713-61a8-468f-bd7b-f851bc943721" width=500px>
 <br>
 </div>
-<br>
-<h3>Trouble shooting</h3>
 
+<br><br>
+<h3>Trouble shooting</h3>
 <b>💥Spring boot에서 OneToMany 어노테이션 활용 중 에러 발생 <br></b>
  OnToMany(외래키를 연결할 자신의 컬럼 명) 으로 작성, Column(name = DB상 이름)으로 작성하여 이를 해결하였다. <br>
+<br>
+<br>
+<b>💥spring boot와 vue의 서버를 연동하는 방법에서 에러와 CORS 이상 발생<br></b>
+협업과 자료 조사를 통해 Controller 위에 @CrossOrigin(origins =" vue의 로컬 서버 주소 ")작성하여 해결.<br>
+이론적으로만 알던 CORS에 대해 경험하고 공부할 수 있었다.<br>
 <br>
 <br>
 <b>💥vue와 spring boot연동시 proxy 경로를 잘못설정하여 연동되지 않는 상황이 발생 <br></b>
@@ -71,7 +76,7 @@ listData.value.push(item);
 <br>
 <br>
 <br>
-<b>💥입력받은 정보가  JSON내에 객체, JSON으로 쌓여있어 500에러가 나는 문제 발생<br></b>
+<b>💥입력받은 정보가  JSON내에 객체, JSON으로 쌓여있어 status 500에러가 나는 문제 발생<br></b>
 DTO를 통해 객체를 한번 더 돌리며 해결했다. 또한 현재 입력 값이 없는 c_link를 서버에 보내주는 코드를 삭제하여 해결하였다.
 <br><br>
 
