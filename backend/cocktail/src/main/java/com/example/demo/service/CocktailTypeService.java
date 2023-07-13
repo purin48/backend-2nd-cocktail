@@ -6,6 +6,8 @@ import com.example.demo.model.CocktailType;
 
 public interface CocktailTypeService {
 	// 전체 칵테일 조회
-		List<CocktailType> findAll();
+	List<CocktailType> findAll();
+	
+	CocktailType findById(int id);
 
 }

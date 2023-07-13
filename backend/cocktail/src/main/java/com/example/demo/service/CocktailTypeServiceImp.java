@@ -21,4 +21,9 @@ public class CocktailTypeServiceImp implements CocktailTypeService{
 		return cocktailTypeRepository.findAll();
 	}
 
+	@Override
+	public CocktailType findById(int id) {
+		return cocktailTypeRepository.findById(id).orElse(null);
+	}
+
 }

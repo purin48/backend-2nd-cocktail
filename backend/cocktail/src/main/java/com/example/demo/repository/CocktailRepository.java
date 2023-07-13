@@ -19,6 +19,10 @@ public interface CocktailRepository extends CrudRepository<Cocktail, Integer>{
 	// 칵테일 저장
 	Cocktail save(Cocktail cocktail);
 	
+//	
+//	//칵테일 타입 id만 저장
+//	void saveTypeID(Cocktail cocktail);
+	
 	// 칵테일 삭제
 	void delete(Cocktail cocktail);
 }

@@ -36,5 +36,6 @@ public class CocktailServiceImp implements CocktailService{
 	public void delete(Cocktail cocktail) {
 		cocktailRepository.delete(cocktail);
 	}
+
 	
 }

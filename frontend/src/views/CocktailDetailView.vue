@@ -50,6 +50,8 @@ watchEffect(() => {
 
 const updateBtn = () => {
   router.push({path:`${currentPath}/edit`});
+  // router.replace({path:`${currentPath}/edit`});
+  // window.location = `${currentPath}/edit`;
 }
 
 const deleteBtn = () => {
@@ -57,10 +59,21 @@ const deleteBtn = () => {
     console.log(response);
     alert("칵테일이 지워졌습니다!");
     router.push({path:`/list`});
-  });
-  
-  
+  });  
 }
+
+
+// defineProps({
+//     Item:{
+//         name : detailData[0].name,
+//         desc :  detailData[0].description,
+//         alchol : detailData[0].alchol,
+//         cocktailType : detailData[0].cocktailType.name
+
+//     }
+// })
+
+
 </script>
 
 <style scoped>
