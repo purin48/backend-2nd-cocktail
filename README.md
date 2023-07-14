@@ -47,16 +47,13 @@ Development tools<br>
 <img src="https://github.com/purin48/backend-2nd-cocktail/assets/126961013/1cd3ddcf-6116-444b-b29e-35ab1b46e3b7" width=500px>
 <br><br>
 <h3>API 명세서</h3>
-<img src="https://github.com/purin48/backend-2nd-cocktail/assets/126961013/c7c1a713-61a8-468f-bd7b-f851bc943721" width=500px>
+<img src="https://github.com/purin48/backend-2nd-cocktail/assets/126961013/07c269be-59f5-4f14-aa58-1f198d09cd02" width=500px>
 <br>
 </div>
 
 <br><br>
 <h3>Trouble shooting</h3>
-<b>💥Spring boot에서 OneToMany 어노테이션 활용 중 에러 발생 <br></b>
- OnToMany(외래키를 연결할 자신의 컬럼 명) 으로 작성, Column(name = DB상 이름)으로 작성하여 이를 해결하였다. <br>
-<br>
-<br>
+
 <b>💥spring boot와 vue의 서버를 연동하는 방법에서 에러와 CORS 이상 발생<br></b>
 협업과 자료 조사를 통해 Controller 위에 @CrossOrigin(origins =" vue의 로컬 서버 주소 ")작성하여 해결.<br>
 이론적으로만 알던 CORS에 대해 경험하고 공부할 수 있었다.<br>
