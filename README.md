@@ -41,6 +41,18 @@ Development tools<br>
   </div>
 <br><br>
 
+----
+
+<h3> 구현 페이지</h3>
+
+#### 🍸 칵테일 리스트 페이지
+<img src="https://github.com/purin48/backend-2nd-cocktail/assets/126961013/a4b7a560-4c23-4d6d-823a-4554a0005bce" width=1000px>
+<br>
+<br>
+
+#### 🍸 칵테일 정보 페이지
+<img src="https://github.com/purin48/backend-2nd-cocktail/assets/126961013/0ec62851-1e55-4f43-b067-f6e9d54ae599" width=1000px>
+
 -----
 
 <h3>테이블 ERD</h3>
