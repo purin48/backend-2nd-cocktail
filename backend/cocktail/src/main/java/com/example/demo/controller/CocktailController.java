@@ -19,7 +19,7 @@ import com.example.demo.service.CocktailTypeService;
 
 import lombok.extern.slf4j.Slf4j;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://13.209.19.24:3000")
 @RequestMapping("/cocktail")
 @RestController
 public class CocktailController {
